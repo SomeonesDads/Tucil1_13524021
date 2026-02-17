@@ -61,14 +61,13 @@ def check(case):
     if valid:
         ans.append(case.copy())
     
-    output_text.insert(tk.END, f"Checking iteration #{iter_count}\n")
-    output_text.see(tk.END)
-    if not visualization_enabled:
-        root.update()
+    if visualization_enabled or iter_count % 500 == 0:
+        output_text.insert(tk.END, f"Checking iteration #{iter_count}\n")
+        output_text.see(tk.END)
+        if not visualization_enabled:
+            root.update()
 
     iter_count += 1
-
-
 
 def create_text_output(solution):
     new_board = [list(row) for row in matrice]
