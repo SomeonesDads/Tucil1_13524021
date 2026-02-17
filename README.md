@@ -48,6 +48,7 @@ pip install pillow
    - Check "Enable Live Visualization" to see the algorithm in action
    - Adjust the speed slider to control update rate
    - Lower values = faster, Higher values = slower
+   - For even FASTER results, disable "Enable Live Visualization".
 
 4. **Solve the Puzzle**
    - The program automatically starts solving after loading a file
