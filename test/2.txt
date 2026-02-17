@@ -1,0 +1,4 @@
+AABB
+BBBB
+CCCC
+DDCC

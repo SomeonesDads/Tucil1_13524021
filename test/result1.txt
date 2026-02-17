@@ -1,0 +1,12 @@
+--- Solution 1 ---
+A#AA
+BBB#
+#CCC
+DD#D
+
+--- Solution 2 ---
+AA#A
+#BBB
+CCC#
+D#DD
+
